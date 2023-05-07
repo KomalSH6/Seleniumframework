@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T17:38:17 IST" name="Default suite" finished-at="2023-05-02T17:38:48 IST" duration-ms="30269">
+  <suite started-at="2023-05-06T23:54:12 IST" name="Suite" finished-at="2023-05-06T23:55:03 IST" duration-ms="50482">
     <groups>
     </groups>
-    <test started-at="2023-05-02T17:38:17 IST" name="Default test" finished-at="2023-05-02T17:38:48 IST" duration-ms="30269">
+    <test started-at="2023-05-06T23:54:12 IST" name="Test" finished-at="2023-05-06T23:55:03 IST" duration-ms="50482">
       <class name="testcases.verifylogin">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcases.verifylogin@28f3b248]" started-at="2023-05-02T17:38:18 IST" name="launchbrowser" finished-at="2023-05-02T17:38:28 IST" duration-ms="10911" status="PASS">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcases.verifylogin@32b260fa]" started-at="2023-05-06T23:54:12 IST" name="launchbrowser" finished-at="2023-05-06T23:54:21 IST" duration-ms="8944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="login()[pri:0, instance:testcases.verifylogin@28f3b248]" started-at="2023-05-02T17:38:28 IST" name="login" finished-at="2023-05-02T17:38:48 IST" duration-ms="19312" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="login()[pri:0, instance:testcases.verifylogin@32b260fa]" started-at="2023-05-06T23:54:21 IST" name="login" finished-at="2023-05-06T23:54:38 IST" duration-ms="16828" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='error']"}
   (Session info: chrome=112.0.5615.137)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.9.0', revision: 'd7057100a6'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6198320121a81379a8031405084ac670, findElement {using=xpath, value=//div[@id='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/99/ntc04g716kj...}, goog:chromeOptions: {debuggerAddress: localhost:65164}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65164/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6198320121a81379a8031405084ac670]]>
+Command: [e870984882ec29a29532ca13b855072b, findElement {using=xpath, value=//div[@id='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/99/ntc04g716kj...}, goog:chromeOptions: {debuggerAddress: localhost:49184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49184/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e870984882ec29a29532ca13b855072b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='error']"}
   (Session info: chrome=112.0.5615.137)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.9.0', revision: 'd7057100a6'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6198320121a81379a8031405084ac670, findElement {using=xpath, value=//div[@id='error']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/99/ntc04g716kj...}, goog:chromeOptions: {debuggerAddress: localhost:65164}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65164/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6198320121a81379a8031405084ac670
+Command: [e870984882ec29a29532ca13b855072b, findElement {using=xpath, value=//div[@id='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/99/ntc04g716kj...}, goog:chromeOptions: {debuggerAddress: localhost:49184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49184/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e870984882ec29a29532ca13b855072b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -81,11 +81,21 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- testcases.verifylogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.verifysignup">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:testcases.verifysignup@e15b7e8]" started-at="2023-05-06T23:54:38 IST" name="launchbrowser" finished-at="2023-05-06T23:54:45 IST" duration-ms="7116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="signup()[pri:0, instance:testcases.verifysignup@e15b7e8]" started-at="2023-05-06T23:54:45 IST" name="signup" finished-at="2023-05-06T23:55:03 IST" duration-ms="17518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- testcases.verifysignup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

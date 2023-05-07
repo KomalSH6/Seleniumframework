@@ -7,7 +7,6 @@
         <methods>
           <include name="launchbrowser"/>
           <include name="login"/>
-          <include name="quitbrowser"/>
         </methods>
       </class> <!-- testcases.verifylogin -->
     </classes>
